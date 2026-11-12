@@ -86,11 +86,15 @@ pip install -r requirements.txt
 ### 2. Configure your OpenWeather API key
 
 1. Create a free API key at <https://home.openweathermap.org/api_keys>.
+
 2. Copy `.env.example` to `.env`:
+
    ```powershell
    Copy-Item .env.example .env
    ```
+
 3. Add your key in `.env`:
+
    ```env
    OPENWEATHER_API_KEY=your_actual_openweather_api_key
    ```
